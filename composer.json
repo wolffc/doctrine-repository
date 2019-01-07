@@ -1,0 +1,14 @@
+{
+  "name": "wolffc/docrine-repository",
+  "description": "Enables TYPO3 to use External Databases via Doctrine ORM",
+  "type": "typo3-cms-extension",
+  "version": "1.0.0-beta",
+  "homepage": "https://github.com",
+  "license": "GPL-3.0-or-later",
+  "preferred-install": "dist",
+  "autoload": {
+    "psr-4": {
+      "Wolffc\\DocrineRepository\\": "Classes/"
+    }
+  }
+}
